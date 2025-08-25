@@ -1,0 +1,10 @@
+import numpy as np
+n=np.array([[10,34,65],[65,56,56],[65,55,45]])
+print(n)
+print(n[0,0])
+print(n[0,1])
+print(n[0,2])
+print(n[1,1])
+print(n[1,0])
+print(n[1,2])
+print(n[1,3])

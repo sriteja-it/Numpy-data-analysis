@@ -1,0 +1,11 @@
+import numpy as np
+n1 = np.array([1,2,3,4,5])
+n2 = np.array([6,7,8,9,10])
+print(n1)
+print(n2)
+res=np.sum([n1,n2])
+print("\n print sum  array",res)
+res2=np.sum([n1,n2],axis=0)
+print("\n print the sum col",res2)
+res3=np.sum([n1,n2],axis=1)
+print("\nsum row",res3)
